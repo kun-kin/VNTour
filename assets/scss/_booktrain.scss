@@ -1,0 +1,131 @@
+.search-train {
+    margin: 50px 0;
+    .frm-search-train {
+        max-width: 950px;
+        margin: auto;
+        background-color: #fff;
+        padding: 15px;
+        h3 {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid;
+            display: inline-block;
+        }
+        .form-group {
+            label {
+                display: inline-block;
+                position: relative;
+                margin-bottom: 5px;
+            }
+        }
+        .btn-search {
+            padding: 15px 18px;
+            background-color: #a6a80ce6;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            width: 150px;
+            font-weight: 600;
+        }
+    }
+}
+
+.book-train {
+    margin: 50px 0;
+    .date-binding {
+        margin-bottom: 10px;
+        background-color: var(--primary1-color);
+        padding: 10px;
+        color: #fff;
+        font-size: 16px;
+    }
+    .train-group {
+        .card-train {
+            padding: 20px 0 15px;
+            border-radius: 5px;
+            background-color: #fff;
+            margin-bottom: 7px;
+            position: relative;
+            .card-train-header {
+                .info-train-group {
+                    padding-left: 0!important;
+                    padding-right: 0!important;
+                    .info-train {
+                        float: left;
+                        text-align: center;
+                        min-width: 105px;
+                        hr {
+                            margin-top: 4px;
+                            margin-bottom: 4px;
+                            border-top: 1px solid #a99e9e;
+                        }
+                        .time {
+                            line-height: 1;
+                            min-height: 20px;
+                        }
+                        @media(max-width:767.98px) {
+                            min-width: 33.333%;
+                        }
+                    }
+                }
+            }
+            .super-bold {
+                font-weight: 700;
+            }
+            .card-train-collapse {
+                display: flex;
+                padding: 10px;
+                .type-chair {
+                    position: relative;
+                    overflow: hidden;
+                    height: auto;
+                    background: #f5f5f5;
+                    border-left: 2px #bd7b1770 solid;
+                    margin-bottom: 0;
+                    cursor: pointer;
+                    width: 33.333%;
+                    display: flex;
+                    padding: 15px;
+                    label {
+                        display: inline-block;
+                        margin-left: 10px;
+                        text-transform: capitalize;
+                        font-weight: 600;
+                        span.price {
+                            display: block;
+                            color: var(--primary1-color);
+                            margin-top: 5px;
+                        }
+                    }
+                }
+                @media(max-width:767.98px) {
+                    flex-direction: column;
+                    .type-chair {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    form {
+        .form-group {
+            label {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 5px;
+                text-transform: capitalize;
+            }
+            .form-control {
+                width: 100%;
+            }
+            .btn-submit {
+                background-color: var(--red1-color);
+                border: none;
+            }
+        }
+    }
+    .form-train-dt {
+        background-color: #fff;
+        padding: 20px;
+    }
+}
